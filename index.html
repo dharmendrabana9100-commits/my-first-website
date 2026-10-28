@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Bana</title>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome to My Gaming World</title>
+
+    <!-- CSS DESIGN -->
     <style>
+
+        /* Website Background and Text */
         body {
             background-color: black;
             color: white;
-            text-align: corner;
+            text-align: center;
             font-family: Arial, sans-serif;
         }
 
+        /* Heading Colors */
         h1 {
             color: skyblue;
         }
@@ -23,89 +32,343 @@
             color: white;
         }
 
+        /* Links */
+        a {
+            color: skyblue;
+        }
+
+        /* Button Design */
         button {
             background-color: red;
             color: white;
             padding: 13px 24px;
             border-radius: 11px;
+            border: 2px solid blue;
             cursor: pointer;
         }
 
+        /* Button Hover Effect */
         button:hover {
             background-color: green;
             color: pink;
             border: 2px solid white;
         }
+
     </style>
+
 </head>
 
 <body>
 
-    <h1>Welcome "pradip bana"🤗 ❤️</h1>
-    <p>Do you want to play something?</p>
+    <!-- HEADER -->
+    <header>
+
+        <h1>Welcome "Pradip Bana" 🤗 ❤️</h1>
+
+        <p>
+            Do you want to play something?
+        </p>
+
+    </header>
 
     <hr>
-<section>
-    <h2>Let's Play 🎮</h2>
 
-    <ol>
-        <li>
-            Free Fire
-            <a href="https://www.ff.garena.com">Play Now</a>
-        </li>
+    <!-- MAIN CONTENT -->
+    <main>
 
-        <li>
-            BGMI
-            <a href="https://www.battlegroundsmobileindia.com">
-                Play Now
+        <!-- GAMING SECTION -->
+        <section>
+
+            <h2>Let's Play 🎮</h2>
+
+            <ol>
+
+                <li>
+                    Free Fire
+
+                    <a href="https://www.ff.garena.com">
+                        Play Now
+                    </a>
+                </li>
+
+                <li>
+                    BGMI
+
+                    <a href="https://www.battlegroundsmobileindia.com">
+                        Play Now
+                    </a>
+                </li>
+
+            </ol>
+
+        </section>
+
+        <hr>
+
+        <!-- AI SECTION -->
+        <section>
+
+            <h3>Ask Anything to AI 🤖</h3>
+
+            <ol>
+
+                <li>
+                    Google Gemini
+
+                    <a href="https://gemini.google.com">
+                        Click Here
+                    </a>
+                </li>
+
+                <li>
+                    ChatGPT
+
+                    <a href="https://chatgpt.com">
+                        Click Here
+                    </a>
+                </li>
+
+            </ol>
+
+        </section>
+
+        <br>
+
+        <!-- YOUTUBE BUTTON -->
+        <section>
+
+            <a href="https://www.youtube.com">
+
+                <button>
+                    Open YouTube ▶️
+                </button>
+
             </a>
-        </li>
-    </ol>
+
+        </section>
+
+        <hr>
+
+        <!-- BASIC CODING SECTION -->
+        <section>
+
+            <h2>Basic Coding 💻</h2>
+
+            <ul>
+
+                <li>
+                    Instagram
+
+                    <a href="https://www.instagram.com">
+                        Click Here
+                    </a>
+                </li>
+
+                <li>
+                    YouTube
+
+                    <a href="https://www.youtube.com">
+                        Click Here
+                    </a>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <!-- JOIN FORM SECTION -->
+        <section>
+
+            <h2>Fill the Form to Join Us</h2>
+
+            <form>
+
+                <!-- NAME -->
+                <label for="name">
+                    Your Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="username"
+                    placeholder="Write your name"
+                    minlength="5"
+                    maxlength="10"
+                    required
+                >
+
+                <br><br>
+
+                <!-- EMAIL -->
+                <label for="email">
+                    Your Email:
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Write your email"
+                    required
+                >
+
+                <br><br>
+
+                <!-- PASSWORD -->
+                <label for="password">
+                    Password:
+                </label>
+
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Create a password"
+                    required
+                >
+
+                <br><br>
+
+                <!-- GENDER -->
+                <p>Gender:</p>
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="male"
+                >
+
+                <label for="male">
+                    Male
+                </label>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                >
+
+                <label for="female">
+                    Female
+                </label>
+
+                <input
+                    type="radio"
+                    id="other"
+                    name="gender"
+                    value="other"
+                >
+
+                <label for="other">
+                    Other
+                </label>
+
+                <br><br>
+
+                <!-- POST DROPDOWN -->
+                <label for="post">
+                    Select Your Post:
+                </label>
+
+                <select id="post" name="post">
+
+                    <option value="director">
+                        Director
+                    </option>
+
+                    <option value="manager">
+                        Manager
+                    </option>
+
+                    <option value="both">
+                        Both
+                    </option>
+
+                    <option value="none">
+                        None
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <!-- STATE -->
+                <label for="state">
+                    Your State:
+                </label>
+
+                <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    placeholder="Your state"
+                    required
+                >
+
+                <br><br>
+
+                <!-- TYPE OF WORK -->
+                <label for="work">
+                    Type of Work:
+                </label>
+
+                <select id="work" name="work">
+
+                    <option value="work-from-home">
+                        Work From Home
+                    </option>
+
+                    <option value="regular">
+                        Regular
+                    </option>
+
+                    <option value="full-time">
+                        Full Time
+                    </option>
+
+                    <option value="part-time">
+                        Part Time
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <!-- SUBMIT AND RESET BUTTONS -->
+                <button type="submit">
+                    Submit
+                </button>
+
+                <button type="reset">
+                    Reset
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
 
     <hr>
-</section>
-<section>
-    <h3>Ask Anything to AI 🤖</h3>
 
-    <ol>
-        <li>
-            Google Gemini
-            <a href="https://gemini.google.com">Click Here</a>
-        </li>
+    <!-- FOOTER -->
+    <footer>
 
-        <li>
-            ChatGPT
-            <a href="https://chatgpt.com">Click
- 
-Here</a>
-</section>
+        <p>
+            © 2026 @bana.com
+        </p>
 
-        </li>
-    </ol>
+        <p>
+            To Connect
+        </p>
 
-    <a href="https://www.youtube.com">
-        <button>Open YouTube ▶️</button>
-    </a>
-<br><br>
-<section>
-  <table border="2">
-<tr>
-      <th>pradip</th>
-      <th>Pawan</th>
-       <th>Dharmendra</th>
-</tr>
-<tr>
-     <td>biggest</td>
-     <td>big</td>
-     <td>small</td>
-</tr>
-</table>
-</section>
-<section>
-<footer>
-    <p>© 2026 Bana</p>
-    <p>Contact: @bana.com</p>
-</footer>
-</section>
+    </footer>
+
 </body>
+
 </html>
